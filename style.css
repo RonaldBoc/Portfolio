@@ -100,7 +100,11 @@ h1 { font-size: var(--fs-h1) }
 h2 { font-size: var(--fs-h2) }
 h3 { font-size: var(--fs-h3) }
 
-
+.header_linked {
+    color: var(--clr-dark);
+    text-align: center;  
+    font-size: var(--fs-h3);
+}
 .section__title {
     margin-bottom: .25em;
 }
@@ -139,6 +143,11 @@ header {
     justify-content: space-between;
     padding: 1em;
 }
+
+.header_linked {
+    position: relative;
+}
+
 
 .logo {
     max-width: 100px;
@@ -217,8 +226,8 @@ header {
 
 
 .hamburger {
-    display: block;
     position: relative;
+    display: block;  
 }
 
 .hamburger,
