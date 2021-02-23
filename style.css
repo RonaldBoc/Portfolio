@@ -15,7 +15,7 @@
     
     --clr-light: #fff;
     --clr-dark: #303030;
-    --clr-accent: #16e0bd;
+    --clr-accent: #00b7f6;
     
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
@@ -146,11 +146,23 @@ header {
 
 .header_linked {
     position: relative;
+    left: 50px;
 }
 
 
-.logo {
-    max-width: 100px;
+body {
+   text-align:center;
+}
+#centeredpage {
+   width:90px;
+   margin:0 auto;
+   text-align:left;
+   position:relative;
+}
+#logo {
+   position:absolute;
+   top:0;
+   left:-10px;
 }
 
 .nav {
