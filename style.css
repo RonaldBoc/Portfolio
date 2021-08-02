@@ -58,6 +58,7 @@ section {
 img {
     display: block;
     max-width: 100%;
+    
 }
 
 strong { font-weight: var(--fw-bold) }
@@ -273,6 +274,7 @@ body {
 
 .intro__img {
     box-shadow: var(--bs);
+    border-radius: 50%;
 }
 
 .section__subtitle--intro {
@@ -480,4 +482,38 @@ body {
 
 .social-list__link {
     padding: .5em;
+}
+
+html, 
+body {
+  margin: 0;
+  padding: 10px;
+  background: darken(whitesmoke, 10%);
+}
+#instafeed {
+  max-width:1080px;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  
+  a {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 50%;
+    background: white;
+    
+    @media only screen and (min-width: $lg) {
+      width: 25%;
+    }
+    
+    img {
+      display: block;
+      width: 270px;
+      max-width:270px;
+      height: 270px
+      
+    }
+  }
 }
