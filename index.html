@@ -10,6 +10,7 @@
 
     <title>Ronald Bocaly Portfolio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link href="hover.css" rel="stylesheet" media="all">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
         integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
 
@@ -24,14 +25,14 @@
 
 <body>
     <header>
-        <div><a href="index_en.html" class="header_linked">EN</a>
+        <!-- <div><a href="index_en.html" class="header_linked">EN</a>
             <a href="#" class="header_linked">FR</a>
-        </div>
+        </div> -->
         <div id="centeredpage">
             <img id="logo" src="RBlogoversion3.1.png" alt="">
         </div>
         <button class="nav-toggle" aria-label="toggle navigation">
-            <span class="hamburger"></span>
+            <span class="hamburger" style="display: none"></span>
         </button>
         <nav class="nav">
             <ul class="nav__list">
@@ -51,92 +52,53 @@
         <img src="IMG_0302.jpg" alt="Une photo de moi" class="intro__img">
     </section>
 
-    <!--Mes services-->
-    <section class="my-services" id="services">
+    <!-- Portefolio -->
+    <h1 class="portfTitle">Portefolio</h1>
+    <section class="portfolio">
+        <div class="card"><a href="http://artxiris.com/" class="titleLink">
+                <h3 class="cardTitle">ArtXIris (Site e-commerce)</h3><img
+                    src="/Portefolio/Screen Shot 2021-08-02 at 5.51.31 PM.png" alt="" class="cardImg hvr-sink">
+            </a></div>
+        <div class="card"><a href="/Portefolio/background-slider/index.html" class="titleLink">
+                <h3 class="cardTitle">Background Slider</h3><img src="/Portefolio/background img.png" alt=""
+                    class="cardImg hvr-sink">
+            </a></div>
+        <div class="card"><a href="/Portefolio/animated-navigation/index.html" class="titleLink">
+                <h3 class="cardTitle">Navigation Animée</h3><img src="/Portefolio/Navigation Animée.png" alt=""
+                    class="cardImg hvr-sink">
+            </a></div>
+        <div class="card"><a href="/Portefolio/movie-app/index.html" class="titleLink">
+                <h3 class="cardTitle">Application films (API)</h3><img src="/Portefolio/movieApp.png" alt=""
+                    class="cardImg hvr-sink">
+            </a></div>
+        <div class="card"><a href="/Portefolio/hoverboard/index.html" class="titleLink">
+                <h3 class="cardTitle">HoverBoard</h3><img src="/Portefolio/hoverboard.png" alt=""
+                    class="cardImg hvr-sink">
+            </a></div>
+        <div class="card"><a href="/Portefolio/theme-clock/index.html" class="titleLink">
+                <h3 class="cardTitle">Horloge (Avec Dark Mode)</h3><img src="/Portefolio/horloge.png" alt=""
+                    class="cardImg hvr-sink">
+            </a></div>
+        <div class="card"><a href="/Portefolio/double-vertical-slider/index.html" class="titleLink">
+                <h3 class="cardTitle">Double Slider</h3><img src="/Portefolio/double Slider.png" alt=""
+                    class="cardImg hvr-sink">
+            </a></div>
+        <div class="card"><a href="/Portefolio/drag-n-drop/index.html" class="titleLink">
+                <h3 class="cardTitle">Drag and Drop</h3><img src="/Portefolio/dragndrop.png" alt=""
+                    class="cardImg hvr-sink">
+            </a></div>
+        <div class="card"><a href="/Portefolio/expanding-cards/index.html" class="titleLink">
+                <h3 class="cardTitle">Cartes en Expansion</h3><img src="/Portefolio/cartes en expension.png" alt=""
+                    class="cardImg hvr-sink">
+            </a></div>
+        <div class="card"><a href="/Portefolio/progress-steps/index.html" class="titleLink">
+                <h3 class="cardTitle">Progression</h3><img src="/Portefolio/Progression.png" alt=""
+                    class="cardImg hvr-sink">
+            </a></div>
 
-        <a href="https://ronaldboc.github.io/Portefolio/index.html">
-            <h2 class="section__title section__title--services">Mon Portefolio</h2>
-        </a>
-        <div class="services">
-            <div class="service">
-                <h3>Wordpress - HTML CSS</h3>
-                <p>Je suis un passionné de WordPress, HTML et CSS. Mon but est de devenir un Professionel WordPress
-                    Designer et créer des sites professionnels. </p>
-            </div>
 
-            <div class="service">
-                <h3>Anglais</h3>
-                <p>Ayant vécu de 4ans aux États-Unis pendant 4 ans et demi pour mes études, je maitrise l’anglais à
-                    l’écrit ainsi qu’à l’oral. Cette expérience m’a permis de m’immerger complètement dans le monde et
-                    la culture américaine, et ainsi me donner des compétences en anglais qui me seront utiles tout au
-                    long de ma carrière en Martinique. </p>
-            </div>
-
-            <div class="service">
-                <h3>Business</h3>
-                <p>Je poursuis également un Master Degree en Business (MBA). En obtenant ce diplôme, j’espère pouvoir
-                    allier mes connaissances en Sciences de l’informatique au business afin de m’aider dans mes projets
-                    de création d’entreprises en Martinique et en France. </p>
-            </div>
-        </div>
 
     </section>
-
-    <!--about me!-->
-    <section class="about-me" id="about">
-        <h2 class="section__title section__title--about">Qui Suis-Je?</h2>
-        <p class="section__subtitle section__subtitle--about">Fier Martiniquais pret pour l'aventure!</p>
-
-        <div class="about-me__body">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex ea commodo consequat.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex ea commodo consequat.</p>
-        </div>
-
-        <img src="Oakwood_University.jpg" alt="Une image de mon universitee americaine" class="about-me__img">
-    </section>
-
-
-    <footer class="footer">
-        <!-- replace with your own email address -->
-        <a href="mailto:ronaldbocaly@gmail.com" class="footer__link">ronaldbocaly@gmail.com</a>
-        <ul class="social-list">
-            <li class="social-list__item">
-                <a class="social-list__link" href="https://codepen.io">
-                    <i class="fab fa-codepen"></i>
-                </a>
-            </li>
-            <li class="social-list__item">
-                <a class="social-list__link" href="http://dribbble.com">
-                    <i class="fab fa-dribbble"></i>
-                </a>
-            </li>
-            <li class="social-list__item">
-                <a class="social-list__link" href="https://twitter.com">
-                    <i class="fab fa-twitter"></i>
-                </a>
-            </li>
-            <li class="social-list__item">
-                <a class="social-list__link" href="https://github.com">
-                    <i class="fab fa-github"></i>
-                </a>
-            </li>
-        </ul>
-    </footer>
-
-</body>
-
-</html>
-
-
-
-
-
-<script src="index.js"></script>
-
 
 </body>
 
