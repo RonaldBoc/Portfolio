@@ -521,3 +521,38 @@ body {
     }
   }
 }
+
+.portfTitle{
+    margin-bottom: 20px;
+}
+
+.portfolio{
+    padding-top: 5px;
+    background-color: #00b7f6;
+    border-radius: 3px;
+}
+
+.card{
+
+    margin: 10px;
+    margin-top: 60px;
+    border-radius: 5px;
+}
+
+.cardImg{
+    height: 200px;
+    width: 400px;
+    border-radius: 5px;
+}
+
+.cardTitle{
+    color: white;
+    font-weight: 500;
+    margin: 10px;
+
+}
+
+.titleLink{
+    text-decoration: none;
+
+}
